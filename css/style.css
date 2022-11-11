@@ -1,0 +1,212 @@
+/*common css start*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'roboto' sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    width:1200px;
+    margin:auto;
+    color: #566366;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+/*common css end*/
+nav{
+    background-color: #252e30;
+}
+
+nav .container .logo{
+    width: 20%;
+
+}
+nav .container .menu {
+    width: 80%;
+}
+nav .container .menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+}
+nav .container .menu ul li {
+    display: inline-block;
+    padding: 25px;
+
+    
+}
+nav .container .menu ul li a{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+nav .container .menu ul li:hover a{
+    color:#2ecc71 ;
+
+}
+/*nav section css end*/
+#banner{
+    background: url(../image/banner_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height:1000px ;
+    color: #fff;
+    font-weight: 700;
+}
+#banner .banner_content{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 1000px;
+}
+#banner .banner_content .banner_item{
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+#banner .banner_content .banner_item h1{
+    font-size: 60px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    margin-bottom: 50px;
+
+}
+#banner .banner_content .banner_item a{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    border: 2px solid white;
+    padding: 20px;
+}
+/*feature css start*/
+#feature .feature_content .feature_item{
+    color: #566366;
+    width:calc(100% / 3);
+    margin: 90px 0;
+
+}
+#feature .feature_content .feature_item h3{
+    font-size:30px ;
+    font-weight:700 ;
+    padding-bottom: 50px;
+
+
+}
+#feature .feature_content .feature_item p{
+    font-size:18px ;
+    font-weight:400;
+    line-height: 30px;
+    padding-right: 50px;
+    
+}
+
+/*feature css end*/
+/*about section css start*/
+
+/*
+#about .row{
+
+}
+#about .about_content{
+    background-color: #f2f2f1;
+    padding-top:90px;
+    padding-bottom:90px;
+    padding-left: 50px;
+
+}
+#about .about_item{
+    padding: 50px 0;
+}
+#about .profile_img{
+    width:30%;
+}
+#about .profile_img img{
+    width: 100%;
+
+}
+#about .about_content{
+    width:70%;
+}
+*/
+#about{
+    height: 755px;
+    color: #566366;
+}
+#about .image{
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+}
+#about .image img{
+    width:100%;
+    height: 755px;
+
+}
+
+#about .about_content{
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 755px;  
+    padding: 90px 0;
+}
+#about .about_content .about_me h2{
+    padding-bottom: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#about .about_content p{
+
+    font-size: 18px;
+    font-weight: 400;
+}
+#about .icon_sec{
+    width:680px;
+    margin:auto;
+    
+}
+#about .about_info h4{
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#about .about_content .about_info .icon{
+    display: inline-block;
+    width:50%;
+    padding-right: 40px;
+    padding-top: 50px;
+
+}
+#about .icon{
+    height:170px;
+}
+#about .about_info .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+#about .row .icon_bg{
+    display: inline-block;
+    width:20%;
+}
+#about .row .text{
+    display: inline-block;
+    width:80%;
+}
+/*about section css end*/
